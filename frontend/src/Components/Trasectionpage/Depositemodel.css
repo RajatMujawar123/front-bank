@@ -1,0 +1,13 @@
+.btn-loader {
+     width:25px;
+     height:25px;
+     border-radius:50%;
+     background:conic-gradient(#f98221);
+     -webkit-mask:radial-gradient(farthest-side,#0000 calc(100% - 4px),#000 0);
+     animation:s3 1s infinite linear;
+   }
+   @keyframes s3 {to{transform: rotate(1turn)}}
+
+   .deposit-btn{
+    background: #f98221;
+   }
